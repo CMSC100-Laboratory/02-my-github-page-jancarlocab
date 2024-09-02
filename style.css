@@ -1,0 +1,171 @@
+.headernav {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+.headernav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center; 
+}
+
+.nav-item {
+    margin: 0 10px; 
+}
+
+.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color  on hover */
+.nav-item a:hover {
+    background-color: #111;
+}
+
+.featured-container {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: burlywood;
+}
+
+.featured-container .text-description {
+    height: 300px;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.featured-container .logo-container {
+    height: 300px;
+    width: 300px;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: red;
+    border-width: 3px;
+    margin: 20px;
+}
+
+.featured-container .logo-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+/* PROJECTS */
+
+.projects-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 20px;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.project-text-container{
+
+}
+
+.project-image-container {
+    height: 300px;
+    width: 300px;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: red;
+    border-width: 3px;
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.project-image-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+/* SKILLS AND AUTOBIOGRAPHY */
+
+.skills-autobiography-container{
+    height: 375px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; /* Center items vertically */
+}
+
+.skills-container, .autobiography-container{
+    height: 350px;
+    width: 800px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: firebrick;
+    padding: 20px;
+}
+
+/* FOOTER */
+
+.footer{
+    color: black;
+
+    height: 200px;
+    width: 100%;
+
+    background-color:whitesmoke;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer-container {
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: red;
+    border-width: 3px;
+}
+
+.logo-footer-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.footer h1{
+    margin: 20px;
+}
+
+
+
+body {
+    background-color: lightblue;
+}
